@@ -28,12 +28,15 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="sidebar-container">
-          <SideBar
-            pages={this.state.pages}
-            activePage={this.state.activePage}
-            pageHandler={this.switchPage}
-          />
+        <div>
+          <form method="POST" action="localhost:8000/login">
+            <input type="text" name="username" />
+            <input type="text" name="password" />
+            <input type="submit" value="submit" />
+          </form>
+          <form method="GET" action="localhost:8000/login">
+            <input type="submit" value="Second" />
+          </form>
         </div>
       </React.Fragment>
     );
