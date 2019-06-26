@@ -5,7 +5,7 @@
   --sidebar-dark-color: #2b3444;
 }
 
-.sidebar-container {
+/* .sidebar-container {
   font-family: "Montserrat", sans-serif;
   background: var(--sidebar-bg-color);
   color: #c9c9c9;
@@ -13,6 +13,20 @@
   top: 0;
   left: 0;
   height: 100%;
+} */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
 
 .sidebar-item {
